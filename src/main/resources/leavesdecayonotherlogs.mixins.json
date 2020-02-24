@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "tfar.leavesdecayonotherleaves.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "leavesdecayonotherleaves.refmap.json",
+  "mixins": [
+    "MixinLeavesBlock"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
