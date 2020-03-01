@@ -1,4 +1,4 @@
-package tfar.leavesdecayonotherlogs;
+package tfar.leavesdecayonotherleaves;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.tags.BlockTags;
@@ -13,6 +13,7 @@ import static net.minecraft.block.LeavesBlock.DISTANCE;
 @Mod(LeavesDecayOnOtherLeaves.MODID)
 public class LeavesDecayOnOtherLeaves {
     public static final String MODID = "leavesdecayonotherleaves";
+
     public static int getDistance(BlockState state, BlockState neighbor) {
         if (BlockTags.LOGS.contains(neighbor.getBlock())) {
             return 0;

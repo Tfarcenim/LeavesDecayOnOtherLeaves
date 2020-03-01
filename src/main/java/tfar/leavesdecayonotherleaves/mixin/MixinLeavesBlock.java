@@ -1,4 +1,4 @@
-package tfar.leavesdecayonotherlogs.mixin;
+package tfar.leavesdecayonotherleaves.mixin;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LeavesBlock;
@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import tfar.leavesdecayonotherlogs.LeavesDecayOnOtherLeaves;
+import tfar.leavesdecayonotherleaves.LeavesDecayOnOtherLeaves;
 
 import static net.minecraft.block.LeavesBlock.DISTANCE;
 

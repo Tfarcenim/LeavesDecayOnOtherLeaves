@@ -41,7 +41,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-            arg '-mixin.config=leavesdecayonotherlogs.mixins.json'
+            arg '-mixin.config=leavesdecayonotherleaves.mixins.json'
 
 
             // Recommended logging level for the console
@@ -56,7 +56,7 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-            arg '-mixin.config=leavesdecayonotherlogs.mixins.json'
+            arg '-mixin.config=leavesdecayonotherleaves.mixins.json'
 
 
             // Recommended logging level for the console
